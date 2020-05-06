@@ -4,7 +4,7 @@ class CreateEntities < ActiveRecord::Migration[6.0]
       t.string :first_name
       t.string :last_name
       t.integer :gender
-      t.string :state
+      t.string :aasm_state
       t.datetime :deleted_at
 
       t.timestamps

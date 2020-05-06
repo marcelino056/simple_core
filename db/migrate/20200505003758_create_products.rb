@@ -5,7 +5,7 @@ class CreateProducts < ActiveRecord::Migration[6.0]
       t.references :product_category, null: false, foreign_key: true
       t.datetime :deleted_at
       t.boolean :allow_with_out_stock
-      t.string :state
+      t.string :aasm_state
 
       t.timestamps
     end

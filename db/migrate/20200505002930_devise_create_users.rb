@@ -36,6 +36,7 @@ class DeviseCreateUsers < ActiveRecord::Migration[6.0]
       t.string :last_name
       t.datetime :deleted_at
       t.references :account
+      t.string :aasm_state
 
       t.timestamps null: false
     end

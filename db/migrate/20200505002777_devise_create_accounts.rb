@@ -33,6 +33,7 @@ class DeviseCreateAccounts < ActiveRecord::Migration[6.0]
       t.datetime :locked_at
 
       t.string :name
+      t.string :aasm_state
       t.datetime :deleted_at
 
       t.timestamps null: false

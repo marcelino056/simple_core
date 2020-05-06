@@ -4,6 +4,7 @@ class CreateProductCategories < ActiveRecord::Migration[6.0]
       t.string :name
       t.datetime :deleted_at
       t.string :meta
+      t.string :aasm_state
 
       t.timestamps
     end

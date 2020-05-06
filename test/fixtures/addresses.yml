@@ -1,0 +1,17 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  description: MyString
+  sector: one
+  street: MyString
+  deleted_at: 2020-05-05 18:58:10
+  aasm_state: MyString
+  entity: one
+
+two:
+  description: MyString
+  sector: two
+  street: MyString
+  deleted_at: 2020-05-05 18:58:10
+  aasm_state: MyString
+  entity: two

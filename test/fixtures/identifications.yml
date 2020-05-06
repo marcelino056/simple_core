@@ -1,0 +1,15 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  category: 1
+  value: MyString
+  aasm_state: MyString
+  deleted_at: 2020-05-05 18:45:38
+  entity: one
+
+two:
+  category: 1
+  value: MyString
+  aasm_state: MyString
+  deleted_at: 2020-05-05 18:45:38
+  entity: two

@@ -1,0 +1,21 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  sale: one
+  product: one
+  quantity: 1.5
+  product_price: one
+  aasm_state: MyString
+  deleted_at: 2020-05-05 22:44:22
+  returned_at: 2020-05-05 22:44:22
+  delivered_at: 2020-05-05 22:44:22
+
+two:
+  sale: two
+  product: two
+  quantity: 1.5
+  product_price: two
+  aasm_state: MyString
+  deleted_at: 2020-05-05 22:44:22
+  returned_at: 2020-05-05 22:44:22
+  delivered_at: 2020-05-05 22:44:22
