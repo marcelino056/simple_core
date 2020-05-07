@@ -68,6 +68,10 @@ en:
         title: "Site Administration"
         menu: "Dashboard"
         breadcrumb: "Dashboard"
+      invoicing:
+        breadcrumb: "Facturacion"
+        menu: 'Facturacion'
+        title: 'Facturacion'
       index:
         title: "List of %{model_label_plural}"
         menu: "List"

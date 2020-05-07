@@ -29,6 +29,8 @@ gem 'rails_admin_pundit', github: 'sudosu/rails_admin_pundit'
 gem 'rails_admin_toggleable'
 gem 'redis', '~> 4.0'
 gem 'sass-rails', '>= 6'
+gem 'simple_form'
+gem 'smart_listing'
 gem 'turbolinks', '~> 5'
 gem 'webpacker', '~> 4.0'
 
